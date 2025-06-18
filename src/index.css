@@ -182,7 +182,7 @@ body {
 
 /* From Uiverse.io by G4b413l */
 /* https://uiverse.io/G4b413l/tidy-walrus-92 */
-.three-body {
+@utility three-body {
   --uib-size: 35px;
   --uib-speed: 0.8s;
   --uib-color: #5d3fd3;
@@ -193,7 +193,7 @@ body {
   animation: spin78236 calc(var(--uib-speed) * 2.5) infinite linear;
 }
 
-.three-body__dot {
+@utility three-body__dot {
   position: absolute;
   height: 100%;
   width: 30%;
@@ -222,7 +222,6 @@ body {
   animation: wobble1 var(--uib-speed) infinite ease-in-out;
   animation-delay: calc(var(--uib-speed) * -0.3);
 }
-
 .three-body__dot:nth-child(2) {
   bottom: 5%;
   right: 0;
